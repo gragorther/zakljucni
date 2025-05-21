@@ -6,4 +6,5 @@ export const load = async () => {
 			messages: {}
 		}
 	});
+	return { chats };
 };
