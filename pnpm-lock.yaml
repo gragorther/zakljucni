@@ -20,6 +20,9 @@ importers:
       langchain:
         specifier: ^0.3.26
         version: 0.3.26(@langchain/core@0.3.56(openai@4.100.0(zod@3.25.17)))(openai@4.100.0(zod@3.25.17))
+      lucide-svelte:
+        specifier: ^0.511.0
+        version: 0.511.0(svelte@4.2.20)
       openai:
         specifier: ^4.100.0
         version: 4.100.0(zod@3.25.17)
@@ -914,6 +917,11 @@ packages:
 
   lru-cache@10.4.3:
     resolution: {integrity: sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==}
+
+  lucide-svelte@0.511.0:
+    resolution: {integrity: sha512-cSBj1UPKt1EXnj3VBUidBqwHyFQ83pLYiTaQ/67Q5thnaP9IPohL2UXjqEzgSXXklYPYQKaAv+kmVdliDWFjWQ==}
+    peerDependencies:
+      svelte: ^3 || ^4 || ^5.0.0-next.42
 
   magic-string@0.30.17:
     resolution: {integrity: sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==}
@@ -2090,6 +2098,10 @@ snapshots:
   locate-character@3.0.0: {}
 
   lru-cache@10.4.3: {}
+
+  lucide-svelte@0.511.0(svelte@4.2.20):
+    dependencies:
+      svelte: 4.2.20
 
   magic-string@0.30.17:
     dependencies:
