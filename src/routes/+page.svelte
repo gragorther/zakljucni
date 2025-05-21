@@ -1,18 +1,10 @@
 <script lang="ts">
 	export let data;
-	let images = data.images;
 
-	let prompt = '';
-	let isLoading = false;
-
-	async function onSubmit(event: Event) {
-		event.preventDefault();
-
-		isLoading = true;
-
-		isLoading = false;
-		prompt = '';
-	}
+	let chats = data.chats;
 </script>
 
-<main class="container mx-auto px-4 py-8 max-w-6xl"></main>
+<main class="flex h-screen">
+	<div></div>
+	<div></div>
+</main>
