@@ -28,11 +28,11 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@langchain/core": "^0.3.56",
-		"@langchain/openai": "^0.5.10",
+		"@langchain/core": "^0.3.57",
+		"@langchain/openai": "^0.5.11",
 		"@prisma/client": "6.4.1",
-		"langchain": "^0.3.26",
+		"langchain": "^0.3.27",
 		"lucide-svelte": "^0.511.0",
-		"openai": "^4.100.0"
+		"openai": "^4.103.0"
 	}
 }
