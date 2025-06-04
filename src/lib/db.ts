@@ -1,5 +1,6 @@
-import { PrismaClient } from '@prisma/client';
+const { PrismaClient } = await import('@prisma/client');
 
-const db = new PrismaClient();
+import { withAccelerate } from '@prisma/extension-accelerate';
 
+const db = new PrismaClient().$extends(withAccelerate());
 export default db;
